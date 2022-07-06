@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('cpf');
             $table->string('gender');
-            $table->tinyInteger('age');;
+            $table->tinyInteger('age');
             $table->timestamps();
         });
     }

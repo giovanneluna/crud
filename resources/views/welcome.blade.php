@@ -33,7 +33,8 @@
         <a href="esportes"><button type="button" class="btn btn-dark">|Esportes|</button></a>
         <a href="/"><button type="button" class="btn btn-dark">|Quadras|</button></a>
         <a href="/"><button type="button" class="btn btn-dark">|Agendamentos|</button></a>
-        <a href="/cliente"><button type="button" class="btn btn-dark">|Area do Cliente|</button></a>
+        <a href="/usuarios"><button type="button" class="btn btn-dark">|Usuarios|</button>
+        <a href="/cliente"><button type="button" class="btn btn-dark">|Meu Perfil|</button></a>
             <p style="background-image: url('sanji.jpg');">
 
     </body>

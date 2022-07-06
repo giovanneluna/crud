@@ -23,7 +23,7 @@ return new class extends Migration
             $table->timestamps();
             $table->string('cpf')->unique();
             $table->string('username')->unique();
-            $table->string('age');
+            $table->tinyInteger('age');
             
         });
     }
