@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('Club Gugu') Clube do Gugu</title>
+
 </head>
 <body>
     <div class="app">,
+
     @yield('content')
     </div>
 </body>

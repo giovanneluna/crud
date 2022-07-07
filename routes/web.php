@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-
+Route::get('/agendar', [UserController::class,'schedule'])->name('users.schedule');
 Route::delete('/users/{id}', [UserController::class,'destroy'])->name('users.destroy');
 Route::put('/users/{id}', [UserController::class,'update'])->name('users.update');
 Route::get('/users/{id}/editar', [UserController::class,'edit'])->name('users.edit');

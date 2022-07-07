@@ -12,7 +12,6 @@ class UserController extends Controller
 {
 public function index ()
 {
-
   $users = User::get();
 
 
@@ -38,7 +37,6 @@ public function store (UpdateUserFormRequest $request)
 {
    $data = $request->all();
    $data ['password'] = bcrypt($request->password);
-
    $user = User::create($data);
 
    return redirect()->route('users.userslist');
@@ -77,4 +75,11 @@ $user->delete();
 
 return redirect()->route('users.userslist');
 }
+
+public function schedule ()
+{
+    return view('users.schedule');
+
+}
+
 }

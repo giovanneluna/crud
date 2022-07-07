@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Usúarios cadastrados no Sistema
+<h1><p style="text-align:center;">Usúarios cadastrados no Sistema
 
 </h1>
 
